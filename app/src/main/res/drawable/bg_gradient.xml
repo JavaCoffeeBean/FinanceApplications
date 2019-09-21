@@ -5,7 +5,7 @@
     <gradient
         anndroid:endColor="@color/darkk_green"
         anndroid:angle="0"
-        anndroid:centerColor="@color/lightt_green"
+        anndroid:centerColor="@color/darkk_green"
         anndroid:type="linear"
         anndroid:startColor="@color/darkk_green" />
 
