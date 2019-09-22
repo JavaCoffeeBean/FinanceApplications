@@ -31,6 +31,7 @@
             android:id="@+id/rellay1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:visibility="gone"
             android:layout_below="@+id/Stockup">
             
             <TextView
@@ -132,10 +133,12 @@
     </RelativeLayout>
     
     <RelativeLayout
+        android:id="@+id/rellay2"
         android:layout_width="match_parent"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_alignParentBottom="true"
+        android:visibility="gone"
         android:layout_height="wrap_content">
         
         <Button
