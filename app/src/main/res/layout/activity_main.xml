@@ -5,11 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:animateLayoutChanges="true"
     android:background="@drawable/fixed_money">
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
         android:layout_centerInParent="true">
 
         <TextView
@@ -45,6 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tv_login"
+                android:layout_marginTop="20dp"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -109,7 +113,7 @@
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:layout_below="@+id/linlay1"
                 android:layout_marginTop="50dp"
                 android:text="Login"
@@ -126,7 +130,34 @@
 
 
     </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+        
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:text="Register"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"/>
 
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:text="Forgot Password?"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif"/>
+        
+    </RelativeLayout>
 
 </RelativeLayout>
 
