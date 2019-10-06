@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/initial_rel"
     tools:context=".MainActivity"
     android:animateLayoutChanges="true"
     android:background="@drawable/fixed_money">
@@ -32,7 +33,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="gone"
-            android:layout_below="@+id/Stockup">
+            android:layout_below="@+id/Stockup"
+            android:layout_marginBottom="100dp">
             
             <TextView
                 android:id="@+id/tv_login"
@@ -139,7 +141,8 @@
         android:layout_marginRight="20dp"
         android:layout_alignParentBottom="true"
         android:visibility="gone"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp">
         
         <Button
         android:layout_width="wrap_content"

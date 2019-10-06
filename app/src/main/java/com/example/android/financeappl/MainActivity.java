@@ -2,6 +2,7 @@ package com.example.android.financeappl;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -9,7 +10,7 @@ import android.widget.RelativeLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-    RelativeLayout rellay1, rellay2;
+    RelativeLayout rellay1, rellay2, initial_rel;
 
     Handler handler = new Handler();
     Runnable runnable = new Runnable() {
